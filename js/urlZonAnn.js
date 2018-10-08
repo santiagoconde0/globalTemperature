@@ -98,7 +98,7 @@ d3.csv(urlZonAnn).then(data => {
     .attr("y", 0 - margin.left - 5)
     .attr("x", 0 - height / 1.7)
     .attr("dy", "3em")
-    .text("Anomalía de temperatura");
+    .text("Anomalía de temperatura (°C)");
 
   // agregar los puntos
   svg.selectAll("dot")

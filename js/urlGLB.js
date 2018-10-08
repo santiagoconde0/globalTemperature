@@ -1,5 +1,6 @@
 // URL de la data:
-var urlGLB = "https://raw.githubusercontent.com/santiagoconde0/globalTemperature/master/datos/GLB.Ts%2BdSST.csv"; //GLB
+var urlGLB1 = "https://raw.githubusercontent.com/santiagoconde0/globalTemperature/master/datos/GLB.csv"; //GLB
+var urlGLB2 = "https://raw.githubusercontent.com/santiagoconde0/globalTemperature/master/datos/GLB.Ts%2BdSST.csv"; //GLB
 
 // margenes
 margin = {
@@ -24,31 +25,45 @@ var svg2 = d3
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // Llamar datos de GLB
-d3.csv(urlGLB).then(data => {
+d3.csv(urlGLB2).then(data => {
   console.log("urlGLB: ", data);
+//   data.forEach(function (d) {
+//     d.Year = +d.Year;
+//     // console.log("Year: ", d.Year);
+//     d.Jan = +d.Jan; //1
+//     // console.log("d.Jan", d.Jan);
+//     d.Feb = +d.Feb; //2
+//     // console.log("d.Feb", d.Feb );
+//     d.Mar = +d.Mar; //3
+//     // console.log("d.Mar", d.Mar);
+//     d.Apr = +d.Apr;  //4
+//     // console.log("d.Apr", d.Apr);
+//     d.May = +d.May; //5
+//     // console.log("d.May", d.May);
+//     d.Jun = +d.Jun; //6
+//     // console.log("d.Jun", d.Jun);
+//     d.Jul = +d.Jul; //7
+//     // console.log("d.Jul",d.Jul);
+//     d.Aug = +d.Aug; //8
+//     // console.log("d.Aug",d.Aug);
+//     d.Sep = +d.Sep; //9
+//     // console.log("d.Sep",d.Sep);
+//     d.Oct = +d.Oct; //10
+//     // console.log("d.Oct",d.Oct);
+//     d.Nov = +d.Nov; //11
+//     // console.log("d.Nov",d.Nov);
+//     d.Dec = +d.Dec; //12
+//     // console.log("d.Dec",d.Dec);
+// });
+//
+// var chart = makeLineChart(data, 'Year', {
+//     'Variable A': {column: 'variableA'},
+//     'Variable B': {column: 'variableB'},
+//     'Variable C': {column: 'variableC'},
+//     'Variable D': {column: 'variableD'}
+// }, {xAxis: 'Years', yAxis: 'Amount'});
+// chart.bind("#chart-line1");
+// chart.render();
 
-  // filtrar el año que se desea visualizar
-  var year = document.querySelector("input[id='slYear']").value;
-  console.log("year: ", year);
-
-  // Extraer todos los valores de los meses
-  const filteredYear = data.filter(function(d) {
-    if (d.Year == year) {
-      return true;
-    }
-  });
-  console.log("filteredYear: ", filteredYear);
-
-  var datos = d3.set(data).values();
-
-  console.log("Datos: ", datos);
-
-  var nested_data = d3.nest()
-    .key(function(d) {
-      return +d.Year;
-    })
-    .entries(data);
-
-  console.log("Nested Data: ", nested_data.map(d=>d.value));
 
 });
