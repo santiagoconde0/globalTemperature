@@ -24,7 +24,7 @@ var svg = d3
 
 // Llamar datos de ZonAnn
 d3.csv(urlZonAnn).then(data => {
-  console.log("urlZonAnn: ", data);
+  // console.log("urlZonAnn: ", data);
 
   //filtrar datos con un nest
   var nested_data = d3.nest()
@@ -35,11 +35,11 @@ d3.csv(urlZonAnn).then(data => {
       return d3.sum(d, d => +d.Glob);
     })
     .entries(data);
-  console.log("Nested Data: ", nested_data);
+  // console.log("Nested Data: ", nested_data);
 
   // filtrar anios
   const anios = d3.extent(nested_data, d => d.key);
-  console.log("anos: ", anios);
+  // console.log("anos: ", anios);
 
 
   // Agregar DIV para valores de la info
@@ -48,7 +48,7 @@ d3.csv(urlZonAnn).then(data => {
     .style("opacity", 0);
 
   // Escala de color
-  const c = d3.scaleSequential(d3.interpolateOranges)
+  const c = d3.scaleSequential(d3.interpolateReds)
     .domain([d3.min(nested_data, d => d.value), d3.max(nested_data, d => d.value)]).nice();
 
   // eje x

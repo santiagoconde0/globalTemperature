@@ -17,6 +17,15 @@
 
   <div id="target1">
     <h3>GLB</h3>
+    <p>Seleccione el año que desea visualizar</p>
+
+    <div class="""slidecontainer">
+      <p>
+        1880<input type="range" style="width:1000px" id="slYear" value=2017 min=1880 max=2018 class="slider" oninput="document.getElementById('lbYear').textContent =this.value"> </input>2018
+        <p>Año: <label for="slYear" id="lbYear">2017</label></p>
+      </p>
+    </div>
+
 
   </div>
 
@@ -32,7 +41,7 @@
 
   <div id="target4">
     <h3>ZonAnn</h3>
-
+    <p>Para ver más información de cada punto ubique el cursor sobre él. </p>
   </div>
 
   <footer align="center">By Santiago Suarez Conde under the <a href="https://opensource.org/licenses/MIT">MIT license</a> </footer>
