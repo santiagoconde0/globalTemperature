@@ -51,7 +51,7 @@ d3.csv(urlZonAnn).then(data => {
   const c = d3.scaleSequential(d3.interpolateReds)
     .domain([d3.min(nested_data, d => d.value), d3.max(nested_data, d => d.value)]).nice();
 
-  // eje x
+  // escala x
   const x = d3.scaleTime()
     .domain(anios)
     .range([margin.left, width - margin.right]);

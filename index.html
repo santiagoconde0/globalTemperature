@@ -14,6 +14,7 @@
 
   <h1 align="center">¿El mundo paso de usar pantolones largos a usar pantalones cortos?</h1>
 
+
   <div id="target4">
     <p><b>¿Cómo utilizar la visualización?</b><br>
       Para ver más información de cada punto ubique el cursor sobre él. </p>
@@ -21,27 +22,35 @@
 
   <div>
     <p><b align="center"> <i>Insight #1:  </i></b>
-  El año 2016 ha sido el año más caliente desde 1880, teniendo una anomalía de 0.99 °C.
-  </p>
-
+      El año 2016 ha sido el año más caliente desde 1880, teniendo una anomalía de 0.99 °C.
+    </p>
   </div>
-
+<h4 align="center">Visualizacion 2</h4>
   <div id="target1">
-    <h3>GLB</h3>
-    <p>Seleccione el año que desea visualizar</p>
 
-    <div class="""slidecontainer">
-      <p>
-        1880<input type="range" style="width:1000px" id="slYear" value=2017 min=1880 max=2018 class="slider" oninput="document.getElementById('lbYear').textContent =this.value"> </input>2018
-        <p>Año: <label for="slYear" id="lbYear">2017</label></p>
-      </p>
-    </div>
+    <p><b>¿Cómo utilizar la visualización?</b><br>Seleccione el año que desea visualizar en el slider y ubique el cursor sobre el punto para obtener detalles. <br>
+        si desea realizar el recorrido de forma automática de click en el botón. <br>
+      <font color="#98FB98"><b>la linea de color verde representa el NH.</b> <br> </font>
+      <font color="#98B3FB"><b>la linea de color azul representa el SH. </b><br> </font>
 
+    </p>
 
+      <div class="""slidecontainer">
+        <p>
+          1880<input type="range" style="width:1000px" id="slYear" value=2017 min=1880 max=2018 class="slider" oninput="document.getElementById('lbYear').textContent =this.value" onchange="updateData()"> </input>2018
+          <p>Año: <label for="slYear" id="lbYear">2017</label></p>
+        </p>
+        <input type="button" value="Automático" onclick="auto()">
+        <div id="viz2">
+
+        </div>
+      </div>
   </div>
 
-  <div id="target2">
-    <h3>NH</h3>
+  <div>
+    <p><b align="center"> <i>Insight #2:  </i></b> 
+      -->Texto aca<-- </p> </div> <div id="target2">
+        <h3>NH</h3>
 
   </div>
 
@@ -55,7 +64,7 @@
   <footer align="center">By Santiago Suarez Conde under the <a href="https://opensource.org/licenses/MIT">MIT license</a> </footer>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="js\main.js" charset="utf-8"></script>
+  <script src="js\main.js"></script>
   <script src="js\urlGLB.js"></script>
   <script src="js\urlNH.js"></script>
   <script src="js\urlSH.js"></script>
