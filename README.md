@@ -31,8 +31,8 @@ https://santiagoconde0.github.io/globalTemperature/
 
 ## Screenshot
 
-![alt text][logo]
-[logo]: https://github.com/santiagoconde0/globalTemperature/blob/master/img/presentation.png "Logo Vizualizacion 1 "
+![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/presentation.png "Title")
+
 
 ## [Video de explicación](https://youtu.be/vtO-va-o7tU)
 
