@@ -80,8 +80,3 @@ https://santiagoconde0.github.io/globalTemperature/
  3.  **Visualización #3:** Color hue, position.
 
 *Under the MIT license*
-
-slides:  https://docs.google.com/presentation/d/1J9jOX4ohwXOISdwhN2aVQ5tfr3-ikSl49U-af-ViQP8/edit?usp=sharing
-linked-in: https://www.linkedin.com/in/santiago-su%C3%A1rez-conde-187a17127
-
-video= https://youtu.be/vtO-va-o7tU
