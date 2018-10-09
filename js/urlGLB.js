@@ -7,8 +7,8 @@ var url = "https://raw.githubusercontent.com/santiagoconde0/globalTemperature/ma
     bottom: 30,
     left: 40
   },
-  width = 1100,
-  height = 500,
+  width = 790,
+  height = 450,
   radius = Math.min(width, height) / 2,
   iwidth = width - margin.left - margin.right,
   iheight = height - margin.top - margin.bottom;
@@ -163,7 +163,7 @@ d3.csv(url).then(data => {
     .attr("transform", "rotate(-90)")
     .attr("y", 0 - margin.left - 5)
     .attr("x", 0 - height / 1.7)
-    .attr("dy", "3em")
+    .attr("dy", "10em")
     .text("Anomalía de temperatura (°C)");
 
   // agregar los puntos SH
@@ -382,7 +382,7 @@ function updateData() {
       .attr("transform", "rotate(-90)")
       .attr("y", 0 - margin.left - 5)
       .attr("x", 0 - height / 1.7)
-      .attr("dy", "3em")
+      .attr("dy", "10em")
       .text("Anomalía de temperatura (°C)");
 
     // agregar los puntos SH
@@ -436,4 +436,5 @@ function updateData() {
       });
   });
 
+    window.location.hash = "#viz2";
 }

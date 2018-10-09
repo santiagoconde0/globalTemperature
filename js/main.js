@@ -1,4 +1,5 @@
 function auto() {
+  window.location.hash = "#card3";
   var i = 1880; //anio min
 
   function myLoop() {
@@ -6,7 +7,7 @@ function auto() {
       d3.select("#slYear")
         .property("value", i); // set el anio a mostrar
 
-      document.getElementById('lbYear').textContent = i; // actualizacion de label
+      document.getElementById("lbYear").textContent = i; // actualizacion de label
 
       updateData();
       i++;

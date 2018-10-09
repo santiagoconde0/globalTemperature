@@ -5,10 +5,10 @@ var urlZonAnn = "https://raw.githubusercontent.com/santiagoconde0/globalTemperat
     top: 20,
     right: 30,
     bottom: 30,
-    left: 40
+    left: 100
   },
-  width = 1100,
-  height = 500,
+  width =790,
+  height = 450,
   radius = Math.min(width, height) / 2,
   iwidth = width - margin.left - margin.right,
   iheight = height - margin.top - margin.bottom;
@@ -97,7 +97,7 @@ d3.csv(urlZonAnn).then(data => {
     .attr("transform", "rotate(-90)")
     .attr("y", 0 - margin.left - 5)
     .attr("x", 0 - height / 1.7)
-    .attr("dy", "3em")
+    .attr("dy", "10em")
     .text("Anomalía de temperatura (°C)");
 
   // agregar los puntos
