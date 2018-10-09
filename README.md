@@ -40,11 +40,40 @@ https://santiagoconde0.github.io/globalTemperature/
 
 ## Framework Tamara
 
+```
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+```
+
 ### What?
+ 1.  **Visualización #1:** Se utilizo ..
+ 2.  **Visualización #2:** Se utilizo ..
+ 3.  **Visualización #3:** Se utilizo ..
+
 
 ### Why?
+ 1.  **Visualización #1:** Se utilizo ..
+ 2.  **Visualización #2:** Se utilizo ..
+ 3.  **Visualización #3:** Se utilizo ..
+
 
 ### How?
+ 1.  **Visualización #1:** Se utilizo ..
+ 2.  **Visualización #2:** Se utilizo ..
+ 3.  **Visualización #3:** Se utilizo ..
+
+
+### Marks:
+
+ 1.  **Visualización #1:** Se utilizo ..
+ 2.  **Visualización #2:** Se utilizo ..
+ 3.  **Visualización #3:** Se utilizo ..
+
+
+### Channels:
+
+ 1.  **Visualización #1:** Se utilizo ..
+ 2.  **Visualización #2:** Se utilizo ..
+ 3.  **Visualización #3:** Se utilizo ..
 
 *Under the MIT license*
 
