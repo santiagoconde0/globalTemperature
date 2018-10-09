@@ -55,29 +55,29 @@ https://santiagoconde0.github.io/globalTemperature/
   
 
 ### Why?
- 1.  **Visualización #1:** Se utilizo ..
- 2.  **Visualización #2:** Se utilizo ..
- 3.  **Visualización #3:** Se utilizo ..
+ 1.  **Visualización #1:** **Resumir** la **distribución** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Summarize**, **Distribution**)
+ 2.  **Visualización #2:** **Resumir** la **tendencia** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Summarize**, **Trend**)
+ 3.  **Visualización #3:** **Identificar** **valores atípicos** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Identify**, **Outliers**)
 
 
 ### How?
- 1.  **Visualización #1:** Se utilizo ..
- 2.  **Visualización #2:** Se utilizo ..
- 3.  **Visualización #3:** Se utilizo ..
+ 1.  **Visualización #1:** ARRAGE Express -> MAP Color luminance, shape -> Change
+ 2.  **Visualización #2:** ARRAGE Express -> MAP Color luminance, shape -> Select
+ 3.  **Visualización #3:** ARRAGE Express -> MAP Color hue, shape -> Navigate
 
 
 ### Marks:
 
- 1.  **Visualización #1:** Se utilizo ..
- 2.  **Visualización #2:** Se utilizo ..
- 3.  **Visualización #3:** Se utilizo ..
+ 1.  **Visualización #1:** Líneas y  puntos.
+ 2.  **Visualización #2:** Líneas y  puntos.
+ 3.  **Visualización #3:** Líneas, color hue y  puntos.
 
 
 ### Channels:
 
- 1.  **Visualización #1:** Se utilizo ..
- 2.  **Visualización #2:** Se utilizo ..
- 3.  **Visualización #3:** Se utilizo ..
+ 1.  **Visualización #1:** Color Luminance, position.
+ 2.  **Visualización #2:** Color Luminance, position.
+ 3.  **Visualización #3:** Color hue, position.
 
 *Under the MIT license*
 
