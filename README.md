@@ -42,7 +42,7 @@ https://santiagoconde0.github.io/globalTemperature/
 ### What?
  1.  **Visualización #1:**
  
- ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/presentation.png "Title")
+ ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/What1.PNG "Title")
  
  
  https://github.com/santiagoconde0/globalTemperature/blob/master/img/What1.PNG "Logo Vizualizacion 1
