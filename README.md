@@ -32,7 +32,6 @@ https://santiagoconde0.github.io/globalTemperature/
 ## Screenshot
 
 ![alt text][logo]
-
 [logo]: https://github.com/santiagoconde0/globalTemperature/blob/master/img/presentation.png "Logo Vizualizacion 1 "
 
 ## [Video de explicación](https://youtu.be/vtO-va-o7tU)
@@ -40,15 +39,16 @@ https://santiagoconde0.github.io/globalTemperature/
 
 ## Framework Tamara
 
-```
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-```
-
 ### What?
- 1.  **Visualización #1:** Se utilizo ..
- 2.  **Visualización #2:** Se utilizo ..
- 3.  **Visualización #3:** Se utilizo ..
-
+ 1.  **Visualización #1:** 
+![alt text][logo]
+[logo]: https://github.com/santiagoconde0/globalTemperature/blob/master/img/What1.PNG "Logo Vizualizacion 1 "
+ 2.  **Visualización #2:** 
+ 3. ![alt text][logo]
+[logo]: https://github.com/santiagoconde0/globalTemperature/blob/master/img/What2.PNG"Logo Vizualizacion 1 "
+ 4.  **Visualización #3:** 
+ 5. ![alt text][logo]
+[logo]:https://github.com/santiagoconde0/globalTemperature/blob/master/img/What3.PNG"Logo Vizualizacion 1 "
 
 ### Why?
  1.  **Visualización #1:** Se utilizo ..
