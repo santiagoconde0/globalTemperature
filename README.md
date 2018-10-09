@@ -44,17 +44,15 @@ https://santiagoconde0.github.io/globalTemperature/
  
  ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/What1.PNG "Title")
  
- 
- https://github.com/santiagoconde0/globalTemperature/blob/master/img/What1.PNG "Logo Vizualizacion 1
- 
- ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/What1.PNG "Logo Vizualizacion 1 "Title2")
 
  2.  **Visualización #2:** 
- 3. ![alt text][logo]
-[logo]: https://github.com/santiagoconde0/globalTemperature/blob/master/img/What2.PNG"Logo Vizualizacion 1 "
- 4.  **Visualización #3:** 
- 5. ![alt text][logo]
-[logo]:https://github.com/santiagoconde0/globalTemperature/blob/master/img/What3.PNG"Logo Vizualizacion 1 "
+ 
+  ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/What2.PNG "Title")
+  
+ 3.  **Visualización #3:** 
+ 
+  ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/What3.PNG "Title")
+  
 
 ### Why?
  1.  **Visualización #1:** Se utilizo ..
