@@ -118,7 +118,7 @@ d3.csv(url).then(data => {
         .attr("transform", "rotate(-90)")
         .attr("y", 0 - margin.left - 5)
         .attr("x", 0 - height / 1.7)
-        .attr("dy", "10em")
+        .attr("dy", "9em")
         .text("Anomalía de temperatura (°C)");
 
 
