@@ -67,7 +67,9 @@ https://santiagoconde0.github.io/globalTemperature/
 
 ######  **Visualización #1:** 
   **Encode:**  Express - Ordered - Separate. 
+  
   **Manupulate: ** Change.
+  
   **Mark:** 
  Points: Temperatura por año.
  Lines: Temperatura.
@@ -83,13 +85,15 @@ Color - Saturation: Temperatura en el tiempo
  Points: Temperatura por año.
  Lines: Temperatura.
 
-  ** Channels:** 
+  **Channels:** 
  Position Horizontal and Vertical:  Temperatura en el tiempo
 Color - Saturation: Temperatura en el tiempo
 
 ######  **Visualización #3:** 
   **Encode:**  Express - Ordered - Separate 
-  **Manipulate:**Navigate -  Select - Superimpose / Filter
+  
+  **Manipulate:** Navigate -  Select - Superimpose / Filter
+  
   **Mark:** 
  Points: Temperatura por año.
  Lines: Temperatura.
