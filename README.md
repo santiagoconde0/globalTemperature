@@ -68,7 +68,7 @@ https://santiagoconde0.github.io/globalTemperature/
 ######  **Visualización #1:** 
   **Encode:**  Express - Ordered - Separate. 
   
-  **Manupulate: ** Change.
+  **Manupulate:** Change.
   
   **Mark:** 
  Points: Temperatura por año.
