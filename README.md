@@ -41,7 +41,9 @@ https://santiagoconde0.github.io/globalTemperature/
 
 ### What?
  **Dataset:** Es de tipo *TEMPORAL* 
+ 
  **Atributos:** 
+ 
  1. Year -> Ordered - Ordinal - Sequential
  2. Glob (Temperature °C) ->  Ordered - Quantitative - Diverging
  3. NHem  (Temperature °C)->  Ordered - Quantitative - Diverging
@@ -49,12 +51,12 @@ https://santiagoconde0.github.io/globalTemperature/
  5. Months -> Ordered - Ordinal - Cyclic 
 ### Why?
 
-** Tarea principal : **  
-- **Identificar** la** tendencia** de la temperatura en  el mundo. (TAMARA: **Identify - Trends**)
+**Tarea principal :**
+- **Identificar** la **tendencia** de la temperatura en  el mundo. (TAMARA: **Identify - Trends**)
 
-**Tareas secundarias: **
+**Tareas secundarias:**
 - **Identificar** **valores atípicos** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Identify**, **Outliers**)
-- **Resumir** la **distribución** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Summarize** -** distribution**)
+- **Resumir** la **distribución** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Summarize** -**distribution**)
 - **Buscar** anomalías **extremas** en la temperatura global. (TAMARA: **Browse** - **Extremes**)
 - **Comparar** la **similitud** de las temperaturas en cada hemisferio de la tierra. (TAMARA: **Compare** - **Similitary**)
 - **Enjoy** 
@@ -64,35 +66,35 @@ https://santiagoconde0.github.io/globalTemperature/
 ### How?
 
 ######  **Visualización #1:** 
-  **Encode: **  Express - Ordered - Separate. 
+  **Encode:**  Express - Ordered - Separate. 
   **Manupulate: ** Change.
-  **Mark: ** 
+  **Mark:** 
  Points: Temperatura por año.
  Lines: Temperatura.
 
-  **Channels: ** 
+  **Channels:** 
  Position Horizontal and Vertical:  Temperatura en el tiempo
 Color - Saturation: Temperatura en el tiempo
 
 ######  **Visualización #2:** 
-  **Encode: **  Express - Ordered - Separate 
-  **Manupulate: **  Navigate- Select - Superimpose
-  **Mark: ** 
+  **Encode:**  Express - Ordered - Separate 
+  **Manupulate:**  Navigate- Select - Superimpose
+  **Mark:** 
  Points: Temperatura por año.
  Lines: Temperatura.
 
-  ** Channels: ** 
+  ** Channels:** 
  Position Horizontal and Vertical:  Temperatura en el tiempo
 Color - Saturation: Temperatura en el tiempo
 
 ######  **Visualización #3:** 
-  **Encode: **  Express - Ordered - Separate 
-  **Manipulate: **Navigate -  Select - Superimpose / Filter
-  **Mark: ** 
+  **Encode:**  Express - Ordered - Separate 
+  **Manipulate:**Navigate -  Select - Superimpose / Filter
+  **Mark:** 
  Points: Temperatura por año.
  Lines: Temperatura.
 
-  **Channels: ** 
+  **Channels:** 
  Position Horizontal and Vertical:  Temperatura en el tiempo
 Color - Saturation: Temperatura en el tiempo
 
