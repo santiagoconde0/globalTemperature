@@ -40,43 +40,62 @@ https://santiagoconde0.github.io/globalTemperature/
 ## Framework Tamara
 
 ### What?
- 1.  **Visualización #1:**
- 
- ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/What1.PNG "Title")
- 
-
- 2.  **Visualización #2:** 
- 
-  ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/What2.PNG "Title")
-  
- 3.  **Visualización #3:** 
- 
-  ![Alt text](https://github.com/santiagoconde0/globalTemperature/blob/master/img/What3.PNG "Title")
-  
-
+ **Dataset:** Es de tipo *TEMPORAL* 
+ **Atributos:** 
+ 1. Year -> Ordered - Ordinal - Sequential
+ 2. Glob (Temperature °C) ->  Ordered - Quantitative - Diverging
+ 3. NHem  (Temperature °C)->  Ordered - Quantitative - Diverging
+ 4. SHem (Temperature °C)-> Ordered - Quantitative - Diverging
+ 5. Months -> Ordered - Ordinal - Cyclic 
 ### Why?
- 1.  **Visualización #1:** **Resumir** la **distribución** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Summarize**, **Distribution**)
- 2.  **Visualización #2:** **Resumir** la **tendencia** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Summarize**, **Trend**)
- 3.  **Visualización #3:** **Identificar** **valores atípicos** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Identify**, **Outliers**)
+
+** Tarea principal : **  
+- **Identificar** la** tendencia** de la temperatura en  el mundo. (TAMARA: **Identify - Trends**)
+
+**Tareas secundarias: **
+- **Identificar** **valores atípicos** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Identify**, **Outliers**)
+- **Resumir** la **distribución** de las anomalías de la temperatura a través del tiempo desde 1880 (TAMARA: **Summarize** -** distribution**)
+- **Buscar** anomalías **extremas** en la temperatura global. (TAMARA: **Browse** - **Extremes**)
+- **Comparar** la **similitud** de las temperaturas en cada hemisferio de la tierra. (TAMARA: **Compare** - **Similitary**)
+- **Enjoy** 
+
 
 
 ### How?
- 1.  **Visualización #1:** ARRAGE Express -> MAP Color luminance, shape -> Change
- 2.  **Visualización #2:** ARRAGE Express -> MAP Color luminance, shape -> Select
- 3.  **Visualización #3:** ARRAGE Express -> MAP Color hue, shape -> Navigate
 
+######  **Visualización #1:** 
+  **- Encode: **  Express - Ordered - Separate. 
+  **- Manupulate: ** Change.
+  **- Mark: ** 
+ Points: Temperatura por año.
+ Lines: Temperatura.
 
-### Marks:
+  **- Channels: ** 
+ Position Horizontal and Vertical:  Temperatura en el tiempo
+Color - Saturation: Temperatura en el tiempo
 
- 1.  **Visualización #1:** Líneas y  puntos.
- 2.  **Visualización #2:** Líneas y  puntos.
- 3.  **Visualización #3:** Líneas, color hue y  puntos.
+######  **Visualización #2:** 
+  **- Encode: **  Express - Ordered - Separate 
+  **- Manupulate: **  Navigate- Select - Superimpose
+  **- Mark: ** 
+ Points: Temperatura por año.
+ Lines: Temperatura.
 
+  **- Channels: ** 
+ Position Horizontal and Vertical:  Temperatura en el tiempo
+Color - Saturation: Temperatura en el tiempo
 
-### Channels:
+######  **Visualización #3:** 
+  **- Encode: **  Express - Ordered - Separate 
+  **- Manipulate: **Navigate -  Select - Superimpose / Filter
+  **- Mark: ** 
+ Points: Temperatura por año.
+ Lines: Temperatura.
 
- 1.  **Visualización #1:** Color Luminance, position.
- 2.  **Visualización #2:** Color Luminance, position.
- 3.  **Visualización #3:** Color hue, position.
+  **- Channels: ** 
+ Position Horizontal and Vertical:  Temperatura en el tiempo
+Color - Saturation: Temperatura en el tiempo
+
 
 *Under the MIT license*
+
