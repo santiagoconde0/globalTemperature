@@ -2,7 +2,7 @@
 
 El calentamiento global es una realidad, la NASA publica los registros de las variaciones en la temperatura de la tierra, donde es posible evidenciar que la temperatura en la tierra ha venido aumentando. En el siguiente [link](https://data.giss.nasa.gov/gistemp/) se puede acceder a los datos que provee la NASA; en los que encontrará los datasets con las anomalías de la temperatura en grados Celcius a nivel global, hemisferio norte y sur, entre otros datos; por cada mes del año desde 1880 hasta la fecha.  
 
-## Objetivo de la visualización
+## Objetivo de la visuaización
 
 Diseñar una visualización que eduque a la gente acerca del calentamiento global. Se quiere  que a todo el mundo le quede claro que el calentamiento global es una realidad de todo el planeta, y que la evidencia muestra que en los últimos años se ha venido presentando un incremento constante de la temperatura. Se quiere una visualización interactiva, que descreste a la gente, que sea novedosa y fácil de entender, y sobre todo que muestre ese comportamiento global, y por continente. para esto se debe usar los [datos](https://data.giss.nasa.gov/gistemp/) que provee la NASA, con los registros desde el año 1880 hasta el día de hoy. 
 
@@ -64,38 +64,37 @@ https://santiagoconde0.github.io/globalTemperature/
 ### How?
 
 ######  **Visualización #1:** 
-  **- Encode: **  Express - Ordered - Separate. 
-  **- Manupulate: ** Change.
-  **- Mark: ** 
+  **Encode: **  Express - Ordered - Separate. 
+  **Manupulate: ** Change.
+  **Mark: ** 
  Points: Temperatura por año.
  Lines: Temperatura.
 
-  **- Channels: ** 
+  **Channels: ** 
  Position Horizontal and Vertical:  Temperatura en el tiempo
 Color - Saturation: Temperatura en el tiempo
 
 ######  **Visualización #2:** 
-  **- Encode: **  Express - Ordered - Separate 
-  **- Manupulate: **  Navigate- Select - Superimpose
-  **- Mark: ** 
+  **Encode: **  Express - Ordered - Separate 
+  **Manupulate: **  Navigate- Select - Superimpose
+  **Mark: ** 
  Points: Temperatura por año.
  Lines: Temperatura.
 
-  **- Channels: ** 
+  ** Channels: ** 
  Position Horizontal and Vertical:  Temperatura en el tiempo
 Color - Saturation: Temperatura en el tiempo
 
 ######  **Visualización #3:** 
-  **- Encode: **  Express - Ordered - Separate 
-  **- Manipulate: **Navigate -  Select - Superimpose / Filter
-  **- Mark: ** 
+  **Encode: **  Express - Ordered - Separate 
+  **Manipulate: **Navigate -  Select - Superimpose / Filter
+  **Mark: ** 
  Points: Temperatura por año.
  Lines: Temperatura.
 
-  **- Channels: ** 
+  **Channels: ** 
  Position Horizontal and Vertical:  Temperatura en el tiempo
 Color - Saturation: Temperatura en el tiempo
 
 
 *Under the MIT license*
-
