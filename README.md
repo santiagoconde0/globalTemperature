@@ -80,7 +80,9 @@ Color - Saturation: Temperatura en el tiempo
 
 ######  **Visualización #2:** 
   **Encode:**  Express - Ordered - Separate 
+  
   **Manupulate:**  Navigate- Select - Superimpose
+  
   **Mark:** 
  Points: Temperatura por año.
  Lines: Temperatura.
